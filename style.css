@@ -134,8 +134,8 @@ a {
 
 
 .col-4a {
-    
-	flex-basis: calc((100% / 12) * 4);
+    margin-left: 10px;
+	flex-basis: 300px;
     border: solid #DBDBDD 1px;
     height: 650px;
 }
@@ -211,6 +211,16 @@ a {
 .element2 {
     padding-top: 10px;
 }
+
+
+/* part 2 section 1*/
+
+.col-12a {
+    padding-top: 30px;
+	flex-basis: calc((100% / 12) * 12);
+    border: solid 1px red;
+}
+
 
 
 
