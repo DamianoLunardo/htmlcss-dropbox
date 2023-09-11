@@ -16,7 +16,7 @@ font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
 }
 
-.container-big {
+.container-header {
     max-width: 100%;
     margin: 0 auto;
    }
@@ -119,6 +119,88 @@ a {
     padding-top: 30px;
 }
 
+/* Section 1 card*/
+.radio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+.section-1 {
+    padding-top: 100px;
+    font-family: 'DM Sans', sans-serif
+    
+}
+
+
+.col-4a {
+	flex-basis: calc((100% / 12) * 4);
+    border: solid red 3px;
+    height: 600px;
+}
+
+.top-section {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid blue 2px;
+    gap: 5px
+}
+
+.list1 {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.element-padding1 {
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.element-padding2 {
+    padding-top: 7px;
+    
+}
+
+.element-padding3 {
+    padding-top: 3px;
+    color: grey;
+}
+
+.list2 {
+    padding-left: 20px;
+    padding-top: 40px;
+    list-style: none;
+}
+
+.element1 {
+    padding-top: 10px;
+}
+
+.blue-box2 {
+    display: inline-block;
+    color: white;
+    background-color: #0061FF;
+    justify-content: center;
+}
+
+.try {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.buy-now {
+
+    padding-left: 20px;
+}
+
+.list3 {
+    padding-left: 20px;
+    padding-top: 40px;
+    list-style: none;
+}
 
 
 
