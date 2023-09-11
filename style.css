@@ -134,9 +134,10 @@ a {
 
 
 .col-4a {
+    
 	flex-basis: calc((100% / 12) * 4);
-    border: solid red 3px;
-    height: 800px;
+    border: solid #DBDBDD 1px;
+    height: 650px;
 }
 
 .top-section {
@@ -144,7 +145,7 @@ a {
     padding-bottom: 3px;
     display: flex;
     justify-content: center;
-    border-bottom: solid blue 2px;
+    border-bottom: solid #DBDBDD 1px;
     gap: 5px
 }
 
