@@ -136,7 +136,7 @@ a {
 .col-4a {
 	flex-basis: calc((100% / 12) * 4);
     border: solid red 3px;
-    height: 600px;
+    height: 800px;
 }
 
 .top-section {
@@ -179,11 +179,14 @@ a {
     padding-top: 10px;
 }
 
-.blue-box2 {
-    display: inline-block;
+.box {
     color: white;
-    background-color: #0061FF;
-    justify-content: center;
+    text-align: center;
+    display: inline-block;
+	width: 200px;
+	height: 30px;
+	background-color: #0061FF;
+	
 }
 
 .try {
@@ -192,14 +195,20 @@ a {
 }
 
 .buy-now {
-
+    padding-top: 20px;
     padding-left: 20px;
+    
+    
 }
 
 .list3 {
     padding-left: 20px;
     padding-top: 40px;
     list-style: none;
+}
+
+.element2 {
+    padding-top: 10px;
 }
 
 
