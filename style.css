@@ -387,24 +387,14 @@ figure > img {
 
 /* mini section 500.000 clients */
 
-.design {
-    
-    background-color: green;
-    width: 150px;
-    height: 150px;
-    text-align: center;
-}
-
-.florida {
-    display: flex;
-    background-color: blue;
-   
-}
-
 
 /* companies section*/
 
-/* background color */
+.companies {
+    padding-top: 100px;
+}
+
+/* background color for companies */
 .bg-green {
     background-color: #A2D39B;
 }
@@ -437,39 +427,32 @@ figure > img {
     background-color: #FFD830;
 }
 
-.margin-team {
-    margin-bottom: 50px;
 
-}
 
 .icon {
     filter: invert(100%);
 }
 
 .companies .col-2 > .company-logo {
-    padding: 40px 20px;
     height: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* loghi*/
+/* logo  inside the box*/
 .companies .col-2 > .company-logo img {
     min-height: 50px;
-    width: 180px;
+    width: 150px;
 }
 
 .companies .col-4 > .company-logo {
     margin-bottom: 90px;
 }
 
+/* designt logo*/
 .companies .col-4 > .company-logo img {
     height: 90px;
-}
-
-.companies .col.col-4 {
-padding: 50px 50px;
 }
 
 .team-description {
@@ -484,7 +467,7 @@ padding: 50px 50px;
 }
 .button-free-try {
     background-color: white;
-    border: solid gray 1px;
+    border: solid gray 0px;
     line-height: 42px;
     width: 250px;
     font-family: 'DM Sans', sans-serif;
