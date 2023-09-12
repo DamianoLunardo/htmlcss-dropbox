@@ -46,7 +46,6 @@ figure > img {
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	
 }
 
 .col-12 {
@@ -65,13 +64,29 @@ figure > img {
 	flex-basis: calc((100% / 12) * 4);
 }
 
+.col-a {
+    flex-basis: calc((100%/ 12) * 2.4);
+}
+
 .col-2 {
 	flex-basis: calc((100% / 12) * 2);
 }
 
 .row > [class^='col'] {
-    padding: 0 25px;
+    padding: 0px 0px;
 }
+
+.rowA {
+	display: flex;
+	flex-wrap: wrap;
+}
+.rowA > [class^='col'] {
+    padding: 0px 25px;
+}
+
+
+
+
 
 
 
@@ -406,6 +421,7 @@ figure > img {
 
 .margin-team {
     margin-bottom: 50px;
+
 }
 
 .icon {
@@ -414,19 +430,19 @@ figure > img {
 
 .companies .col-2 > .company-logo {
     padding: 40px 20px;
-    height: 200px;
+    height: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* loghi*/
 .companies .col-2 > .company-logo img {
     min-height: 50px;
     width: 180px;
 }
 
 .companies .col-4 > .company-logo {
-    position: relative;
     margin-bottom: 90px;
 }
 
@@ -435,8 +451,11 @@ figure > img {
 }
 
 .companies .col.col-4 {
-    padding: 50px 50px;
-    background-color: var(--bg-lightGrey);
+padding: 50px 50px;
+}
+
+.team-description {
+    font-family: 'DM Sans', sans-serif;
 }
 
 /* trial*/
@@ -483,6 +502,33 @@ figure > img {
 .faq-freq {
     padding-bottom: 40px;
     font-size: 40px;
+}
+
+
+/* footer */
+.bg {
+    background-color: black;
+}
+
+.text-footer {
+    padding-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+.none {
+    list-style: none;
+    padding-top: 7px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+
+
+.ita {
+    padding-top: 100px;
 }
 
 
