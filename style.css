@@ -16,6 +16,15 @@ font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
+figure > img {
+    display: block;
+    width: 100%;
+}
+
 .container-header {
     max-width: 100%;
     margin: 0 auto;
@@ -57,24 +66,31 @@ font-family: 'Roboto', sans-serif;
 	flex-basis: calc((100% / 12) * 2);
 }
 
+.row > [class^='col'] {
+    padding: 0 25px;
+}
+
 
 
 /*  header */
 
 .page-header {
-    padding: 15px 10px;
+    padding: 20px 0;
     font-family: 'DM Sans', sans-serif;
-    
+    background-color: white;
 }
 
 .nav-menu {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     gap:10px;
+    align-items: center;
 }
 
 .justify-between {
 	justify-content: space-between;
+    align-items: center;
 }
 
 a {
@@ -88,23 +104,41 @@ a {
     background-color: #0061FF;
 }
 
-/* hero */
-
-.title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 48px;
-    justify-content: left;
-    padding-top: 15px;
+.logo {
+    display: block;
 }
+
+.button-small {
+    font-size: 15px;
+    background-color: #0061FF;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    width: 50px;
+    height: 25px;
+    border: none;
+}
+
+
+
+/* hero */
 
 .hero {
     padding-top: 40px;
     background-color: #B4D0E7;
-    
 }
 
+.title-display {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 800;
+    padding-top: 15px;
+}
+
+
+
 .hero-text {
-    padding: 30px;
+    padding-top: 30px;
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -114,9 +148,34 @@ a {
 }
 
 .img1 {
- width: 100% ;
+    width: 100% ;
     height: 100%;
     padding-top: 30px;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.button-big {
+    background-color: #0061FF;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    width: 150px;
+    line-height: 44px;
+    border: none;
+    display: inline-block;
+}
+
+.annulla {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.arrow {
+    font-size: 42px;
 }
 
 /* Section 1 card*/
@@ -134,10 +193,10 @@ a {
 
 
 .col-4a {
-    margin-left: 10px;
-	flex-basis: 300px;
+    /*margin-left: 5px;*/
+	flex-basis: calc((100% / 12) * 4);
     border: solid #DBDBDD 1px;
-    height: 650px;
+    max-height: 100%;
 }
 
 .top-section {
@@ -216,7 +275,7 @@ a {
 /* part 2 section 1*/
 
 .col-12a {
-    padding-top: 30px;
+    
 	flex-basis: calc((100% / 12) * 12);
     border: solid 1px red;
 }
