@@ -54,7 +54,7 @@ figure > img {
 
 .col-12a {
 	flex-basis: calc((100% / 12) * 12);
-    border: solid red 2px;
+    
 }
 
 .col-10 {
@@ -63,11 +63,23 @@ figure > img {
 
 .col-8 {
 	flex-basis: calc((100% / 12) * 8);
+    
 }
-
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
+    
 }
+
+.col-8c {
+	flex-basis: calc((100% / 12) * 8);
+    border: solid #F5F5F5 1px;
+}
+.col-4c {
+	flex-basis: calc((100% / 12) * 4);
+    border: solid #F5F5F5 2px;
+}
+
+
 
 .col-3 {
 	flex-basis: 30%;
@@ -149,6 +161,10 @@ figure > img {
     border: none;
 }
 
+.arrow {
+    padding-top: 100px
+}
+
 
 
 /* hero */
@@ -213,8 +229,10 @@ figure > img {
 .radio {
     padding-top: 30px;
     padding-bottom: 30px;
-    gap: 20px;
+    
 }
+
+
 
 .section-1 {
     padding-top: 100px;
@@ -250,7 +268,7 @@ figure > img {
 
 .list-advantage {
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 80px;
     list-style: none;
 }
 
@@ -285,6 +303,37 @@ figure > img {
     padding-top: 10px;
 }
 
+
+.buy {
+    padding-left: 80px;
+    padding-top: 40px;
+    list-style: none;
+}
+.buy1 {
+    padding-left: 80px;
+    padding-top: 63.5px;
+    list-style: none;
+}
+.buy2 {
+    padding-left: 80px;
+    padding-top: 20px;
+    list-style: none;
+}
+
+
+
+.buy-now {
+    padding-left: 20px;
+    padding-top: 10px;
+    list-style: none;
+}
+
+.special-button {
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+/*
 .box {
     padding-top: 20px;
     color: white;
@@ -293,18 +342,18 @@ figure > img {
 	width: 200px;
 	height: 30px;
 	background-color: #0061FF;
-	
-}
-
+}*/
+/*
 .try {
     padding-top: 40px;
     text-align: center;
-}
+}*/
 
+/*
 .buy-now {
     padding-top: 20px;
     padding-left: 20px;
-}
+}*/
 
 .button-bigA {
     background-color: #0061FF;
@@ -343,8 +392,8 @@ figure > img {
 
 
 .img1 {
-    width: 80% ;
-    height: 80% ;
+    width: 100% ;
+    height: 100% ;
     
 }
 
