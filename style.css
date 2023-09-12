@@ -54,8 +54,15 @@ figure > img {
 
 .col-12a {
 	flex-basis: calc((100% / 12) * 12);
-    
+    border: solid red 2px;
 }
+
+.col-12ab {
+	flex-basis: calc((100% / 12) * 12);
+    border: solid #F5F5F5 2px;
+}
+
+
 
 .col-10 {
 	flex-basis: calc((100% / 12) * 10);
@@ -372,6 +379,20 @@ figure > img {
     padding-top: 10px;
     padding-left: 20px;
 }
+
+
+.title-section-alone {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    
+    gap: 5px
+}
+
 
 
 
