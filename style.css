@@ -96,7 +96,7 @@ figure > img {
     align-items: center;
 }
 
-a {
+.list {
     text-decoration: none;
     color: black;
 }
@@ -282,23 +282,16 @@ a {
 
 
 
-/* part 2 section 1
-
-.col-12a {
-    
-	flex-basis: calc((100% / 12) * 12);
-    border: solid 1px red;
-}
-*/
 
 
+/*  section to be completed*/
 
 .col-12a {
     border: soli red 2px;
 	flex-basis: calc((100% / 12) * 12);
 }
 
-/* prova*/
+
 
 
 /* Patner */
@@ -361,9 +354,120 @@ a {
 
 /* mini section 500.000 clients */
 
-.found-client {
-    padding-top: 30px;
+.design {
+    
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    text-align: center;
 }
+
+.florida {
+    display: flex;
+    background-color: blue;
+   
+}
+
+
+/* companies section*/
+
+/* background color */
+.bg-green {
+    background-color: #A2D39B;
+}
+
+.bg-blue {
+    background-color: #0061FF;
+}
+
+.bg-wine {
+    background-color: #61082B;
+}
+
+.bg-red {
+    background-color: #FF1C1C;
+}
+
+.bg-Redred {
+    background-color: #D5001F;
+}
+
+.bg-BlueBlue {
+    background-color: #0D2481;
+}
+
+.bg-lightBlue {
+    background-color: #B4D0E7;
+}
+
+.bg-Yellow {
+    background-color: #FFD830;
+}
+
+.margin-team {
+    margin-bottom: 50px;
+}
+
+.icon {
+    filter: invert(100%);
+}
+
+.companies .col-2 > .company-logo {
+    padding: 40px 20px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companies .col-2 > .company-logo img {
+    min-height: 50px;
+    width: 180px;
+}
+
+.companies .col-4 > .company-logo {
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.companies .col-4 > .company-logo img {
+    height: 90px;
+}
+
+.companies .col.col-4 {
+    padding: 50px 50px;
+    background-color: var(--bg-lightGrey);
+}
+
+/* trial*/
+
+.trial {
+    background-color: #B4D0E7;
+    padding: 130px 10px 65px 10px;
+}
+.button-free-try {
+    background-color: white;
+    border: solid gray 1px;
+    line-height: 42px;
+    width: 250px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.trial-title {
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    color: #61082B;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
