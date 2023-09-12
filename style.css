@@ -344,6 +344,26 @@ a {
 }
 
 
+/* operation */
+
+.op-padding {
+    padding-bottom: 50px;
+}
+
+.operation {
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.p-operation {
+    padding-top: 20px;
+}
+
+/* mini section 500.000 clients */
+
+.found-client {
+    padding-top: 30px;
+}
 
 
 
