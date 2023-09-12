@@ -281,6 +281,7 @@ a {
 }
 
 
+
 /* part 2 section 1
 
 .col-12a {
@@ -292,9 +293,58 @@ a {
 
 
 
-
+.col-12a {
+    border: soli red 2px;
+	flex-basis: calc((100% / 12) * 12);
+}
 
 /* prova*/
+
+
+/* Patner */
+
+.patner {
+    padding-top: 40px;
+    background-color: white;
+}
+
+
+.patner-text {
+    padding-top: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+.img1 {
+    width: 80% ;
+    height: 80% ;
+    
+}
+
+.patner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.button-gray {
+    background-color:white;
+    color: gray;
+    font-family: 'DM Sans', sans-serif;
+    width: 150px;
+    line-height: 44px;
+    border: solid gray 1px;
+    display: inline-block;
+}
+
+.title-1 {padding-top: 60px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
 
 
 
