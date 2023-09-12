@@ -459,6 +459,34 @@ figure > img {
     color: #61082B;
 }
 
+/* faq */
+
+.faq {
+    font-family: 'DM Sans', sans-serif;
+    padding: 150px 10px;
+}
+
+.faq .question {
+    display: flex;
+    border-top: 1px solid black;
+    line-height: 100px;
+}
+
+.faq .question:last-child {
+    border-bottom: 1px solid black;
+}
+
+.faq-bold {
+    font-weight: 700;
+}
+
+.faq-freq {
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+
+
 
 
 
