@@ -9,6 +9,9 @@ font-family: 'Reem Kufi Fun', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+/*  style */
+
+
 
 * {
 	margin: 0;
@@ -135,8 +138,6 @@ a {
     padding-top: 15px;
 }
 
-
-
 .hero-text {
     padding-top: 30px;
     font-family: 'DM Sans', sans-serif;
@@ -179,6 +180,8 @@ a {
 }
 
 /* Section 1 card*/
+
+
 .radio {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -192,9 +195,11 @@ a {
 }
 
 
+
+
 .col-4a {
-    /*margin-left: 5px;*/
-	flex-basis: calc((100% / 12) * 4);
+    
+	flex-basis: calc((100% / 12) * 4  );
     border: solid #DBDBDD 1px;
     max-height: 100%;
 }
@@ -217,6 +222,10 @@ a {
     padding-top: 10px;
     font-weight: 800;
     font-size: 20px;
+}
+
+.contact {
+    font-weight: 800;
 }
 
 .element-padding2 {
@@ -272,13 +281,27 @@ a {
 }
 
 
-/* part 2 section 1*/
+/* part 2 section 1
 
 .col-12a {
     
 	flex-basis: calc((100% / 12) * 12);
     border: solid 1px red;
 }
+*/
+
+
+
+
+
+/* prova*/
+
+
+
+
+
+
+
 
 
 
