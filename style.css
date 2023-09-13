@@ -251,13 +251,41 @@ figure > img {
 }
 
 /* Section 1 card*/
+.title {
+    font-size: 40px;
+}
 
 
-.radio {
+.bill-rate__selection {
+    display: flex;
+    gap: 32px;
+}
+
+.bill-rate__group {
+    display: flex;
+    align-items: center;
+    gap: 14px;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.bill-rate__group > input {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: solid black 2px;
+    background-color: transparent;
+    appearance: none;
+    margin-bottom: 2px;
     
 }
+
+.bill-rate__group > input:checked {
+    border: 5px solid cornflowerblue;
+}
+
+
+
 
 
 
@@ -266,6 +294,8 @@ figure > img {
     font-family: 'DM Sans', sans-serif
     
 }
+
+/* cards */
 
 .title-section {
     font-size: 15px;
@@ -440,9 +470,7 @@ figure > img {
 
 /* operation */
 
-.op-padding {
-    padding-bottom: 50px;
-}
+
 
 .operation {
     display: flex;
