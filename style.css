@@ -481,7 +481,8 @@ figure > img {
 
 .trial {
     background-color: #B4D0E7;
-    padding: 100px 30px 100px 30px;
+    padding: 100px 30px 100px 400px;
+    
 }
 .button-free-try {
     background-color: white;
@@ -492,7 +493,7 @@ figure > img {
 }
 
 .trial-title {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'DM Sans', sans-serif;
     color: #61082B;
 }
