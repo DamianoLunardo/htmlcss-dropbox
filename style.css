@@ -214,7 +214,7 @@ figure > img {
 
 .title {
     padding-top:100px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 
@@ -390,10 +390,17 @@ figure > img {
     display: inline-block;
 }
 
+.team-number {
+    padding-top: 50px;
+}
+
 .title-1 {
     padding-top: 60px;
 }
 
+.link {
+    font-size: 15px;
+}
 
 /* operation */
 
