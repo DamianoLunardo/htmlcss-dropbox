@@ -18,84 +18,62 @@ font-family: 'Roboto', sans-serif;
 	padding: 0;
 	box-sizing: border-box;
 }
-
 img {
     max-width: 100%;
 }
-
 figure > img {
     display: block;
     width: 100%;
 }
-
 .container-bigger {
     max-width: 100%;
     margin: 0 auto;
    }
-
 .container-big {
  max-width: 1200px;
  margin: 0 auto;
 }
-
 .container-small {
     max-width: 1000px;
     margin: 0 auto;
 }
-
 .row {
 	display: flex;
 	flex-wrap: wrap;
 }
-
 .col-12 {
 	flex-basis: calc((100% / 12) * 12);
 }
-
 .col-12a {
 	flex-basis: calc((100% / 12) * 12);
     border: solid red 2px;
 }
-
 .col-12ab {
 	flex-basis: calc((100% / 12) * 12);
     border-top: solid #F5F5F5 2px;
     border-right: solid #F5F5F5 2px;
     border-left: solid #F5F5F5 2px;
 }
-
-
-
 .col-10 {
 	flex-basis: calc((100% / 12) * 10);
 }
-
 .col-8 {
 	flex-basis: calc((100% / 12) * 8);
-    
 }
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
-    
 }
-
 .col-8c {
 	flex-basis: calc((100% / 12) * 8);
     border-top:solid #F5F5F5 2px;
     border-bottom: solid #F5F5F5 2px;
     border-left: solid #F5F5F5 2px;
-    
 }
 .col-4c {
 	flex-basis: calc((100% / 12) * 4);
     border-right: solid #F5F5F5 2px;
     border-top: solid #F5F5F5 2px;
-    
-
 }
-
-
-
 .col-3a {
 	flex-basis: 30%;
     border: solid #F5F5F5 2px;
@@ -114,20 +92,15 @@ figure > img {
     border: solid #F5F5F5 2px;
     margin-bottom: 25px;
  }
-
-
 .col-a {
     flex-basis: calc((100%/ 12) * 2.4);
 }
-
 .col-2 {
 	flex-basis: calc((100% / 12) * 2);
 }
-
 .row > [class^='col'] {
     padding: 0px 0px;
 }
-
 .rowA {
 	display: flex;
 	flex-wrap: wrap;
@@ -135,12 +108,6 @@ figure > img {
 .rowA > [class^='col'] {
     padding: 0px 25px;
 }
-
-
-
-
-
-
 
 /*  header */
 
@@ -187,10 +154,6 @@ figure > img {
     height: 25px;
     border: none;
 }
-
-
-
-
 
 /* hero */
 
@@ -247,10 +210,8 @@ figure > img {
 }
 
 .arrow {
-    
     font-size:42px;
     padding-top: 100px
-    
 }
 
 /* Section 1 card*/
@@ -287,15 +248,9 @@ figure > img {
     border: 5px solid cornflowerblue;
 }
 
-
-
-
-
-
 .section-1 {
     padding-top: 100px;
     font-family: 'DM Sans', sans-serif
-    
 }
 
 /* cards */
@@ -310,7 +265,6 @@ figure > img {
     justify-content: center;
     border-bottom: solid #DBDBDD 1px;
     gap: 5px
-    
 }
 
 .list-info {
@@ -329,6 +283,7 @@ figure > img {
     font-weight: 800;
     font-size: 20px;
 }
+
 .cost {
     padding-top: 7px;
 }
@@ -344,9 +299,6 @@ figure > img {
     padding-top: 10px;
 }
 
-
-
-
 .padding-10 {
     padding-top: 10px;
 }
@@ -355,17 +307,18 @@ figure > img {
     padding-top: 10px;
 }
 
-
 .buy {
     padding-left: 80px;
     padding-top: 40px;
     list-style: none;
 }
+
 .buy1 {
     padding-left: 80px;
     padding-top: 63.5px;
     list-style: none;
 }
+
 .buy2 {
     padding-left: 80px;
     padding-top: 20px;
@@ -390,29 +343,10 @@ figure > img {
     display: inline-block;
 }
 
-.position-button {
-    padding-top: 10px;
-}
-
-
-.button-bigA {
-    background-color: #0061FF;
-    color: white;
-    font-family: 'DM Sans', sans-serif;
-    width: 150px;
-    line-height: 44px;
-    border: none;
-    display: inline-block;
-}
-
-
-
-
 .solution-text {
     padding-top: 10px;
     padding-left: 20px;
 }
-
 
 .title-section-alone {
     font-size: 15px;
@@ -423,7 +357,6 @@ figure > img {
     align-items: center;
     flex-grow: 1;
     justify-content: center;
-    
     gap: 5px
 }
 
@@ -432,22 +365,16 @@ figure > img {
     gap:5px
 }
 
-
-
 /* Patner */
 
 .patner {
     padding-top: 40px;
     background-color: white;
 }
-
-
 .patner-text {
     padding-top: 30px;
     font-family: 'DM Sans', sans-serif;
 }
-
-
 
 .img1 {
     width: 100% ;
@@ -479,8 +406,6 @@ figure > img {
 
 /* operation */
 
-
-
 .operation {
     display: flex;
     font-family: 'DM Sans', sans-serif;
@@ -489,9 +414,6 @@ figure > img {
 .p-operation {
     padding-top: 20px;
 }
-
-
-
 
 /* companies section*/
 
@@ -503,36 +425,27 @@ figure > img {
 .bg-green {
     background-color: #A2D39B;
 }
-
 .bg-blue {
     background-color: #0061FF;
 }
-
 .bg-wine {
     background-color: #61082B;
 }
-
 .bg-red {
     background-color: #FF1C1C;
 }
-
 .bg-Redred {
     background-color: #D5001F;
 }
-
 .bg-BlueBlue {
     background-color: #0D2481;
 }
-
 .bg-lightBlue {
     background-color: #B4D0E7;
 }
-
 .bg-Yellow {
     background-color: #FFD830;
 }
-
-
 
 .icon {
     filter: invert(100%);
@@ -630,8 +543,6 @@ figure > img {
 h5 {
     font-size: 25px;
 }
-
-
 
 .ita {
     padding-top: 100px;
