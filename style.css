@@ -110,6 +110,10 @@ figure > img {
     padding: 0px 25px;
 }
 
+ul, li {
+    list-style: none;
+}
+
 /*  header */
 
 .page-header {
@@ -120,7 +124,7 @@ figure > img {
 .nav-menu {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
+    
     gap:10px;
     align-items: center;
 }
@@ -262,13 +266,12 @@ figure > img {
 
 .list-info {
     padding-left: 20px;
-    list-style: none;
 }
 
 .list-advantage {
     padding-left: 20px;
     padding-top: 80px;
-    list-style: none;
+    
 }
 
 .padding-quali {
@@ -307,27 +310,23 @@ figure > img {
 .buy {
     padding-left: 80px;
     padding-top: 40px;
-    list-style: none;
 }
 
 .buy1 {
     padding-left: 80px;
     padding-top: 63.5px;
-    list-style: none;
+    
 }
 
 .buy2 {
     padding-left: 80px;
     padding-top: 20px;
-    list-style: none;
 }
-
-
 
 .buy-now {
     padding-left: 20px;
     padding-top: 10px;
-    list-style: none;
+    
 }
 
 .special-button {
@@ -533,7 +532,6 @@ p{
 }
 
 .footer-list > li {
-    list-style: none;
     padding-top: 7px;
 }
 
