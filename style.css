@@ -424,7 +424,10 @@ figure > img {
     gap: 5px
 }
 
-
+.icon-text {
+    display: flex;
+    gap:5px
+}
 
 
 
