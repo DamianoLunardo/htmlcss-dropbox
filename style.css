@@ -185,7 +185,7 @@ figure > img {
     position: absolute;
     width: 55%;
     height: 80%;
-    padding-top: 30px;
+    top: 200px;
 }
 
 .hero__content {
@@ -411,7 +411,7 @@ figure > img {
     font-family: 'DM Sans', sans-serif;
 }
 
-.p-operation {
+p{
     padding-top: 20px;
 }
 
