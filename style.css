@@ -286,6 +286,10 @@ figure > img {
     color: grey;
 }
 
+.bold-info {
+    font-weight: 800;
+}
+
 
 .bold-cost {
     font-weight: 800;
