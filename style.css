@@ -181,8 +181,8 @@ figure > img {
 .img-hero {
     position: absolute;
     width: 55%;
-    height: 80%;
-    top: 200px;
+    height: 90%;
+    top: 148px;
 }
 
 .hero__content {
@@ -521,7 +521,7 @@ p{
     color: white;
 }
 
-.none {
+.footer-list > li {
     list-style: none;
     padding-top: 7px;
 }
