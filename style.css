@@ -303,9 +303,11 @@ figure > img {
     padding-top: 3px;
     padding-bottom: 3px;
     display: flex;
+    align-items: center;
     justify-content: center;
     border-bottom: solid #DBDBDD 1px;
     gap: 5px
+    
 }
 
 .list-info {
@@ -415,6 +417,7 @@ figure > img {
     padding-top: 3px;
     padding-bottom: 3px;
     display: flex;
+    align-items: center;
     flex-grow: 1;
     justify-content: center;
     
