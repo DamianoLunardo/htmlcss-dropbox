@@ -59,7 +59,9 @@ figure > img {
 
 .col-12ab {
 	flex-basis: calc((100% / 12) * 12);
-    border: solid #F5F5F5 2px;
+    border-top: solid #F5F5F5 2px;
+    border-right: solid #F5F5F5 2px;
+    border-left: solid #F5F5F5 2px;
 }
 
 
@@ -79,21 +81,39 @@ figure > img {
 
 .col-8c {
 	flex-basis: calc((100% / 12) * 8);
-    border: solid #F5F5F5 1px;
+    border-top:solid #F5F5F5 2px;
+    border-bottom: solid #F5F5F5 2px;
+    border-left: solid #F5F5F5 2px;
+    
 }
 .col-4c {
 	flex-basis: calc((100% / 12) * 4);
-    border: solid #F5F5F5 2px;
+    border-right: solid #F5F5F5 2px;
+    border-top: solid #F5F5F5 2px;
+    
+
 }
 
 
 
-.col-3 {
+.col-3a {
 	flex-basis: 30%;
     border: solid #F5F5F5 2px;
-    margin:16px;
-
-}
+   
+   margin-right: 50px;
+   margin-bottom: 25px;
+ }
+ .col-3b {
+	flex-basis: 30%;
+    border: solid #F5F5F5 2px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+ }
+ .col-3c {
+	flex-basis: 30%;
+    border: solid #F5F5F5 2px;
+    margin-bottom: 25px;
+ }
 
 
 .col-a {
@@ -247,16 +267,6 @@ figure > img {
     
 }
 
-
-
-
-.col-4a {
-    
-	flex-basis: calc((100% / 12) * 4  );
-    border: solid #DBDBDD 1px;
-    max-height: 100%;
-}
-
 .title-section {
     font-size: 15px;
     font-weight: 500;
@@ -336,31 +346,19 @@ figure > img {
 }
 
 .special-button {
-    padding-left: 100px;
-    padding-top: 0px;
+    background-color: #0061FF;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    width: 150px;
+    line-height: 44px;
+    border: none;
+    display: inline-block;
 }
 
-/*
-.box {
-    padding-top: 20px;
-    color: white;
-    text-align: center;
-    display: inline-block;
-	width: 200px;
-	height: 30px;
-	background-color: #0061FF;
-}*/
-/*
-.try {
-    padding-top: 40px;
-    text-align: center;
-}*/
+.position-button {
+    padding-top: 10px;
+}
 
-/*
-.buy-now {
-    padding-top: 20px;
-    padding-left: 20px;
-}*/
 
 .button-bigA {
     background-color: #0061FF;
@@ -455,7 +453,7 @@ figure > img {
     padding-top: 20px;
 }
 
-/* mini section 500.000 clients */
+
 
 
 /* companies section*/
@@ -600,6 +598,7 @@ h5 {
 
 .ita {
     padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 
